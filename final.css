@@ -1,0 +1,444 @@
+@import "compass/css3";
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+html {
+    background-image: url(images/img-noise.png);
+}
+
+#border-left,
+#border-right {
+    background: #831608;
+    background-image: url(images/buttons.png);
+    background-repeat: repeat-y;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+#border-left {
+    left: 0;
+}
+
+#border-right {
+    right: 0;
+}
+
+body {
+    background: #fff;
+    width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #010101;
+    border-left: 10px solid #831608;
+    border-right: 10px solid #831608;
+}
+
+.banner {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color: #831608;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    width: 970px;
+	height: auto;
+}
+
+#background {
+    /* IE10+ */
+    
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #141533 100%);
+    /* Mozilla Firefox */
+    
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #141533 100%);
+    /* Opera */
+    
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #141533 100%);
+    /* Webkit (Safari/Chrome 10) */
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #141533));
+    /* Webkit (Chrome 11+) */
+    
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #141533 100%);
+    /* W3C Markup */
+    
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #141533 100%);
+	min-height: 290px;
+	padding: 10px;
+
+}
+
+header {
+    width: 990px;
+    background-color: #831608;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    background-color: #831608;
+    height: auto;
+    padding: 10px 0 0 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #fff;
+    padding: 16px 16px;
+    text-decoration: none;
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul li a:hover:not(.active) {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #141533;
+    border: 2px dashed #fff;
+    -webkit-border-radius: 75px 75px 25px 25px / 50px 50px 25px 25px;
+    border-radius: 75px 75px 25px 25px / 50px 50px 25px 25px;
+    width: 70px;
+    height: 35px;
+}
+
+nav ul li a.active {
+    background-color: #141533;
+    border: 2px dashed #fff;
+    -webkit-border-radius: 75px 75px 25px 25px / 50px 50px 25px 25px;
+    border-radius: 75px 75px 25px 25px / 50px 50px 25px 25px;
+    width: 70px;
+    height: 35px;
+}
+
+#logo {
+    vertical-align: top;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 14px sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    line-height: 2.5;
+    padding-bottom: 3px;
+}
+
+footer li + li {
+    background-image: url(images/buttons.png);
+    background-repeat: no-repeat;
+}
+
+footer li a {
+    color: #831608;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+footer .footer-copyright {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+#xsg ul li a {font-weight:bold; }
+#xsg ul ul li a {font-weight:normal; }
+#xsg a {text-decoration:none; }
+       #xsg p {margin:10px 0px 10px 0px;}
+        #xsg ul {list-style:square; }
+        #xsg li {}
+        #xsg th { text-align:left;font-size: 0.9em;padding:2px 10px 2px 2px; border-bottom:1px solid #CCCCCC; border-collapse:collapse;}
+        #xsg td { text-align:left;font-size: 0.9em; padding:2px 10px 2px 2px; border-bottom:1px solid #CCCCCC; border-collapse:collapse;}
+        
+        #xsg .title {font-size: 0.9em;  color:#132687;  display:inline;}
+        #xsg .url {font-size: 0.7em; color:#999999;}
+        
+        #xsgHeader { width:100%; float:left; margin:0px 0px 5px 0px; border-bottom:2px solid #132687; }
+       s
+        #xsgBody {padding:10px;float:left;}
+        #xsgFooter { color:#999999; width:100%; float:left; margin:20px 0px 15px 0px; border-top:1px solid #999999;padding: 10px 0px 10px 0px; }
+        #xsgFooter a {color:#999999; font-size:11px; text-decoration:none;   }    
+        #xsgFooter span {color:#999999; font-size:11px; text-decoration:none; margin-left:20px; }  
+
+#column-right {
+    width: 129px;
+    float: right;
+}
+
+#column-left {
+    float: left;
+    width: 129px;
+}
+
+#column-left img {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+#column-right img {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.front-center {
+    display: table;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.front-center a {
+    display: table-cell;
+    text-align: center;
+    width: 16%;
+}
+
+.front-center h3 {
+    display: table-cell;
+    text-align: center;
+    width: 16%;
+    margin-bottom: 0;
+}
+
+.front-center p {
+    display: table-cell;
+    text-align: center;
+    width: 16%;
+    color: #000;
+    margin-top: 0;
+    padding-top: 0;
+    color: #d7d7dd;
+}
+
+.front-center img {
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.circular {
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    background-color: #831608;
+}
+
+.centre{
+    margin: 0 auto;
+}
+
+#centre{
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #831608;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Euphoria Script', cursive;
+    color: #831608;
+}
+
+h2 {
+    text-align: left;
+    color: #141533;
+}
+
+h3 a {
+    font-family: 'Euphoria Script', cursive;
+    color: #831608;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+h3 a:hover:not(.active) {
+    color: #141533;
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+    float: none;
+    text-align: center;
+    color: #fff;
+    background-color: #141533;
+}
+
+hr {
+    background-image: url(images/buttons.png);
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 980px;
+    background-color: #831608;
+    border-style: none;
+    background-position: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#social {
+    text-align: center;
+    transform: translatez(0);
+    margin: 0 auto;
+    width: 90%;
+    display: table
+}
+
+#social ul {
+    display: inline-table;
+}
+
+#social li {
+    width: 120px;
+    height: 120px;
+    display: table-cell;
+	/*display: inline-block;*/
+    margin: 20px;
+    list-style: none;
+}
+
+#social li div {
+    width: 120px;
+    height: 120px;
+    color: #fff;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 120px;
+    background-color: #831608;
+    transition: all 0.5s ease;
+	border: 2px dashed #fff;
+}
+
+#social li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+	border: 2px dashed #fff;
+    background-color: #831608;
+}
+
+img.floatLeft {
+	float: left;
+	width: 141px;
+	height: 200px;
+	margin-right: 10px;
+	margin-top: 5px;
+
+    background-color: #831608;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #831608;
+  padding: 10px 20px 10px 20px;
+  border: dotted #fff 3px;
+  text-decoration: none;
+  width: 350px;
+  text-align: center;
+  clear: none;
+}
+
+.btn:hover {
+  background: #141533;
+  text-decoration: none;
+}
+
+#wufoo {
+	width: 680px;
+	margin: 0 auto;
+}
+
+.columns {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 40px;
+	column-gap: 40px;
+	-moz-column-gap: 40px;
+}
+
+ol {
+	text-decoration:none;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+} 
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+} 
+/*
+ * Adding the animation to our element
+*/
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
